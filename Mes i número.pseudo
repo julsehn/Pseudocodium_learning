@@ -1,0 +1,19 @@
+procedure mes {
+    write "Dige'm el mes en número:"
+    read mes_numero
+    case of mes_numero{
+        1: write "El més es gener"
+        2: write "El més es febrer"
+        3: write "El més es març"
+        4: write "El més es abril"
+        5: write "El més es maig"
+        6: write "El més es juny"
+        7: write "El més es juliol"
+        8: write "El més es agost"
+        9: write "El més es setembre"
+        10: write "El més es octubre"
+        11: write "El més es novembre"
+        12: write "El més es desembre"
+        else: write "Número de mes invàlid"
+    }
+}
