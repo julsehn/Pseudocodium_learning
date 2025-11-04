@@ -14,6 +14,6 @@ procedure mes {
         10: write "El més es octubre"
         11: write "El més es novembre"
         12: write "El més es desembre"
-        else: write "Número de mes invàlid"
+        else: write "El número:", mes_numero, "és un número de mes invàlid."
     }
 }
