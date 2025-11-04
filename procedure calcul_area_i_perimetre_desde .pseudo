@@ -1,0 +1,9 @@
+procedure calcul_area_i_perimetre_desde radi() {
+    const pi = 3.14159
+    write "Introdueix el radi del cercle: "
+    read radi
+    area = pi * radi^2
+    perimetre = 2 * pi * radi
+    write "L'àrea del cercle és: ", area
+    write "El perímetre del cercle és: ", perimetre
+}

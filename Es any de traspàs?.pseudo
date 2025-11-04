@@ -1,0 +1,8 @@
+procedure Es_any_de_traspas{
+    write "Digue'm l'any:"
+    read any
+    if (any % 4 = 0) AND ((any % 100 <> 0) OR (any % 400 = 0)) 
+        write "L'any es de traspàs"
+    else
+        write "L'any és de traspàs"    
+}

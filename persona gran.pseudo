@@ -1,0 +1,26 @@
+procedure PersonaGran{
+    write "Nom de la persona 1: "
+    input persona1nom
+    write "Edat de la persona 1: "
+    input persona1edat
+    write "Nom de la persona 2: "
+    input persona2nom
+    write "Edat de la persona 2: "
+    input persona2edat
+    if persona1edat >= 18 AND persona2edat >= 18
+        write persona1nom, "i", persona2nom, "són majors de edat"
+    else if persona1edat >= 18
+        write persona1nom, "es major de edat i ", persona2nom, "es menor de edat"
+    else if persona2edat >= 18
+        write persona2nom, "es major de edat i ", persona1nom, "es menor de edat"
+    else if persona1edat < 18 AND persona2edat < 18
+        persona1nom, "i", persona2edat, "són menors de edat."
+    endif
+    if persona1edat > persona2edat
+        write persona1nom, "es més gran que", persona2nom
+    else if persona1edat < persona2edat
+        write persona2nom, "es més gran que", persona1nom
+    else if persona1edat == persona2edat
+        write persona1nom, "i", persona2nom, "tenen la mateixa edat"
+    endif
+}

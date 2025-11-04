@@ -1,0 +1,6 @@
+procedure calcul_volume_cub() {
+    write "Introdueix la llargada del costat del cub: "
+    read costat
+    volume = costat^3
+    write "El volum del cub és: ", volume
+}
