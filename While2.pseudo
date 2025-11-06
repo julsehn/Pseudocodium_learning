@@ -1,0 +1,9 @@
+procedure lamevafuncio {
+    num_usuari <- 0
+    num_final <- 0
+
+    write "Dige'm un nombre per a que tel sumi amb nombres primers: "
+    read num_usuari
+
+    while num_usuari 
+}
