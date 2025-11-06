@@ -5,7 +5,8 @@ procedure mitjanade10 {
         write "Dige'm el nombre "
         read nombre
         suma <- suma + nombre
+        contador <- contador + 1
     }
-    mitjana <- suma / 10
-    write "La mitjana dels deu nombres és: ", mitjana
+    mitjana <- suma / contador
+    write "La mitjana dels nombres és: ", mitjana
 }
