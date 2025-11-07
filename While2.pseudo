@@ -1,3 +1,4 @@
+## Manera meva que no se si està acceptada
 procedure lamevafuncio {
     num_usuari <- 0
     num_int <- 0
@@ -5,15 +6,32 @@ procedure lamevafuncio {
     num_pre <- 0
     num_final <- 0
 
-    write "Dige'm un nombre: "
-    read num_usuari
-    while num_usuari >= num_final AND num_int2 =0 {
+    WRITE "Digue'm un nombre: "
+    READ num_usuari
+    WHILE num_usuari >= num_final AND num_int2 = 0 {
         num_int <- num_int + 1
         num_pre <- num_int + num_pre
-        if num_pre <= num_final{
+        IF num_pre >= num_usuari{
             num_final <- num per
             num_int2 <- 1
         }
     }
     write "El resultat es: ", num_final
+}
+
+## La manera acceptada pel llibre:
+procedure lamevafuncio {
+    WRITE "Digue?m el valor màxim:"
+    READ valornaxim
+
+    suma <- 0
+    n <- 0
+
+    WHILE suma + n + 1 <= valornaxim {
+        n <- n + 1
+        suma <- suma + n
+    }
+
+    WRITE "L'útim valor de n es:", n
+    WRITE "La suma es:", suma - n
 }
