@@ -21,7 +21,7 @@ procedure lamevafuncio {
 
 ## La manera acceptada pel llibre:
 procedure lamevafuncio {
-    WRITE "Digue?m el valor màxim:"
+    WRITE "Digue'çm el valor màxim:"
     READ valornaxim
 
     suma <- 0

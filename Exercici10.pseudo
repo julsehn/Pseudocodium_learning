@@ -1,0 +1,17 @@
+FUNCTION calcularAreaCercle(radi){
+    Area = 3,141592653589793238462643383279502884197169399375 * (radi * radi)
+    RETURN area
+}
+
+FUNCTION calcularPerimetreCercle(radi){
+    Perimetre = 2 * 3,141592653589793238462643383279502884197169399375 * radi
+    RETURN Perimetre
+}
+
+PROCEDURE main {
+    FOR i <- 1 TO 10{
+        resultatArea <- calcularAreaCercle(i)
+        resultatPerimetre <- calcularPerimetreCercle(i)
+        PRINT "Per a un cercle de radi ", i, ": Area = ", resultatArea, ", Perimetre = ", resultatPerimetre 
+    }
+}
