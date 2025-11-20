@@ -1,12 +1,12 @@
 Algoritmo Contar
 	Mientras acierto=0
-		Escribir "Contraseña"
+		Escribir "ContraseÃ±a"
 		Leer contra
 		si contra = 1234
 			acierto = 1
 			Escribir "Acertaste la contra!, Num. de intentos: ", Contador
 		SiNo
-			Escribir "Contraseña incorrecta"
+			Escribir "ContraseÃ±a incorrecta"
 			Contador <- contador + 1
 		FinSi
 	FinMientras

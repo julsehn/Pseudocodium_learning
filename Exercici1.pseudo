@@ -1,4 +1,4 @@
-procedure calcul_area_i_perimetre_desde radi() {
+procedure calcul_area_i_perimetre_desderadi() {
     const pi = 3.14159
     write "Introdueix el radi del cercle: "
     read radi
